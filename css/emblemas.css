@@ -1,0 +1,214 @@
+section#emblemas div.logos {
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 3rem 5rem 0 5rem;
+
+}
+
+section#emblemas div.logos div.logoDBV,
+section#emblemas div.logos div.logoLiderDBV {
+
+    width: 550px;
+
+}
+
+section#emblemas div.logos div.logoDBV div.logo,
+section#emblemas div.logos div.logoLiderDBV div.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+    height: 300px;
+
+    box-shadow: 0 0 5px black;
+
+    border-radius: 15px;
+
+    margin: 2rem 0;
+    padding: 1rem 0;
+
+}
+
+section#emblemas div.logos div.logoDBV div.logo p,
+section#emblemas div.logos div.logoLiderDBV div.logo p {
+
+    font-size: 1.8rem;
+    font-weight: bolder;
+
+}
+
+section#emblemas div.logos div.logoDBV div.logo img,
+section#emblemas div.logos div.logoLiderDBV div.logo img {
+
+    width: 200px;
+
+}
+
+section#emblemas div.logos div.logoDBV div.logo.DBV_D2 div.divImg {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 520px;
+
+}
+
+section#emblemas div.logos div.logoDBV div.logo.DBV_D2 img,
+section#emblemas div.logos div.logoLiderDBV div.logo.LIDER_LD2 img,
+section#emblemas div.logos div.logoLiderDBV div.logo.LIDER_LD3 img {
+
+    width: 250px;
+
+}
+
+section#emblemas div.logos div.logoDBV div.logo.DBV_D4 img,
+section#emblemas div.logos div.logoLiderDBV div.logo.LIDER_LD4 img {
+
+    width: 160px;
+    height: 200px;
+
+}
+
+section#emblemas div.logos div.logoDBV div.logo.DBV_D5 div.divImg {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 450px;
+
+}
+
+section#emblemas div.logos div.logoDBV div.logo.DBV_D5 div.divImg img {
+
+    width: calc(430px / 3);
+
+}
+
+section#emblemas div.logos div.logoDBV div.logo.DBV_D5 div.divImg img.logo_D5_branco {
+
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.25rem;
+    border-radius: 5px;
+
+}
+
+@media (max-width: 1280px) {
+
+    section#emblemas div.logos {
+
+        margin: 3rem 2rem 0 2rem;
+    
+    }    
+    
+}
+
+@media (max-width: 1180px) {
+
+    section#emblemas div.logos {
+
+        align-items: center;
+        
+        flex-direction: column;
+    
+    }    
+
+    section#emblemas div.logos div.logoLiderDBV {
+
+        margin-top: 3rem;
+
+    }
+
+    section#emblemas div.logos div.logoDBV div.logo img,
+    section#emblemas div.logos div.logoLiderDBV div.logo img {
+    
+        width: 170px;
+    
+    }
+    
+}
+
+@media (max-width: 650px) {
+
+    section#emblemas div.logos {
+
+        margin: 3rem 1rem 0 1rem;
+    
+    }   
+
+    section#emblemas div.logos div.logoDBV,
+    section#emblemas div.logos div.logoLiderDBV {
+    
+        width: 90vw;
+    
+    }
+
+    section#emblemas div.logos div.logoDBV div.logo.DBV_D2 {
+    
+        height: 370px;
+    
+    }
+    
+    section#emblemas div.logos div.logoDBV div.logo.DBV_D2 div.divImg {
+
+        flex-direction: column;
+
+        gap: 10px;
+        
+        width: 90vw;
+    
+    }
+
+    section#emblemas div.logos div.logoDBV div.logo.DBV_D2 img,
+    section#emblemas div.logos div.logoLiderDBV div.logo.LIDER_LD2 img,
+    section#emblemas div.logos div.logoLiderDBV div.logo.LIDER_LD3 img {
+    
+        width: 200px;
+    
+    }
+
+    section#emblemas div.logos div.logoDBV div.logo.DBV_D5 div.divImg {
+
+        width: 390px;
+    
+    }
+    
+    section#emblemas div.logos div.logoDBV div.logo.DBV_D5 div.divImg img {
+    
+        width: calc(350px / 3);
+    
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    section#emblemas div.logos div.logoDBV div.logo.DBV_D5 {
+
+        height: 570px;
+
+    }
+
+    section#emblemas div.logos div.logoDBV div.logo.DBV_D5 div.divImg {
+
+        flex-direction: column;
+
+        gap: 10px;
+
+        width: 90vw;
+
+    }
+    
+    section#emblemas div.logos div.logoDBV div.logo.DBV_D5 div.divImg img {
+    
+        width: 150px;
+    
+    }
+
+}

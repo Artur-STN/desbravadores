@@ -1,0 +1,116 @@
+section#hino {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    
+    margin: 3rem 0 2rem 0;
+    padding: 0 5rem;
+    
+    scroll-margin-top: 100px;
+
+}
+
+section#hino .letraHino {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    flex-direction: column;
+
+    border-bottom: 1px solid #E32403;
+
+    padding: 0 0.5rem;
+    
+    width: 500px;
+    height: 350px;
+
+}
+
+section#hino .letraHino h1 {
+
+    margin-bottom: 2rem;
+
+}
+
+section#hino .letraHino ul li {
+
+    font-size: 1.4rem;
+
+    margin-bottom: 0.5rem;
+
+}
+
+section#hino .videoHino video {
+
+    height: 350px;
+
+}
+
+@media (max-width: 1250px) {
+
+    section#hino {
+
+        flex-direction: column;
+
+        padding: 0 2rem;
+
+    }
+
+    section#hino .letraHino {
+
+        width: 100vw;
+        
+        margin-bottom: 3rem;
+
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    section#hino .videoHino video {
+
+        height: 200px;
+    
+    }
+
+    section#hino .letraHino {
+        
+        width: 400px;
+        height: 290px;
+    
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    section#hino .videoHino video {
+
+        height: 180px;
+    
+    }
+
+    section#hino .letraHino {
+        
+        width: 90vw;
+    
+    }
+
+    section#hino .letraHino h1 {
+        
+        font-size: 1.5rem;
+    
+    }
+
+    section#hino .letraHino ul li {
+    
+        font-size: 1rem;
+    
+    }
+
+}

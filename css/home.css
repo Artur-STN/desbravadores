@@ -1,0 +1,121 @@
+section#home {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-height: 100vh;
+
+    padding: 5rem;
+
+}
+
+section#home .quemSomos {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    flex-direction: column;
+
+    border-bottom: 1px solid #E32403;
+
+    width: 600px;
+    height: 350px;
+
+}
+
+section#home .quemSomos h1 {
+
+    margin-bottom: 2rem;
+
+}
+
+section#home .quemSomos p {
+
+    font-size: 1.5rem;
+    
+    text-align: justify;
+
+    padding: 0 1rem;
+
+}
+
+section#home .imageQuemSomos img {
+
+    height: 350px;
+
+}
+
+@media (max-width: 1280px) {
+
+    section#home {
+    
+        padding: 2rem;
+    
+    }
+
+}
+
+@media (max-width: 1180px) {
+
+    section#home {
+
+        margin-top: 5rem;
+
+        background-image: url('../images/quemSomos.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        flex-direction: column;
+    
+    }
+
+    section#home .quemSomos {
+    
+        background: white;
+
+        margin-bottom: 1rem;
+
+        padding: 0;
+
+        border-radius: 15px;
+    
+    }
+
+    section#home .quemSomos h1 {
+    
+        border-radius: 15px;
+    
+    }
+
+    section#home .quemSomos p {
+    
+        padding: 1rem;
+    
+    }
+
+    section#home .imageQuemSomos img {
+
+        display: none;
+    
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    section#home .quemSomos {
+    
+        width: 100%;
+    
+    }
+
+    section#home .quemSomos p {
+    
+        font-size: 1.2rem;
+    
+    }
+
+}

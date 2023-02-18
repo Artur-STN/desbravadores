@@ -1,0 +1,15 @@
+section#uniformes {
+
+    min-height: 100vh;
+
+}
+
+section#uniformes div.dbv10_15anos {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3rem;
+
+}

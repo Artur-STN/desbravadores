@@ -1,0 +1,142 @@
+section#classes .classes {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 3rem;
+
+}
+
+section#classes .classes .classesRegulares,
+section#classes .classes .classesAvancadas {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+}
+
+section#classes .classes .classesRegulares h2,
+section#classes .classes .classesAvancadas h2 {
+    
+    margin: 2rem 0;
+
+}
+
+section#classes .classes .classesRegulares .classe,
+section#classes .classes .classesAvancadas .classe {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    
+    box-shadow: 0 0 5px black;
+
+    border-radius: 15px;
+    
+    width: 550px;
+    height: 120px;
+    
+    margin-bottom: 2rem;
+    padding: 0.5rem 2rem;
+
+}
+
+section#classes .classes .classesRegulares .classe img {
+
+    height: 100px;
+
+}
+
+section#classes .classes .classesAvancadas .classe img {
+
+    width: 100px;
+
+}
+
+section#classes .classes .classesRegulares .classe p,
+section#classes .classes .classesAvancadas .classe p {
+
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+
+@media (max-width: 1280px) {
+
+    section#classes .classes {
+        
+        padding: 0 2rem;
+    
+    }
+
+    section#classes .classes .classesRegulares .classe,
+    section#classes .classes .classesAvancadas .classe {
+
+        width: 450px;
+
+        padding: 0.5rem;
+
+    }
+
+    section#classes .classes .classesRegulares .classe p,
+    section#classes .classes .classesAvancadas .classe p {
+
+        font-size: 1.3rem;
+
+    }
+    
+}
+
+@media (max-width: 1080px) {
+
+    section#classes .classes .classesRegulares .classe,
+    section#classes .classes .classesAvancadas .classe {
+
+        width: 400px;
+
+    }
+
+    section#classes .classes .classesRegulares .classe p,
+    section#classes .classes .classesAvancadas .classe p {
+
+        font-size: 1.1rem;
+
+    }
+
+}
+
+@media (max-width: 890px) {
+
+    section#classes .classes {
+
+        flex-direction: column;
+
+        margin: 0 1rem;
+
+    }
+
+    section#classes .classes .classesRegulares .classe,
+    section#classes .classes .classesAvancadas .classe {
+
+        width: 90vw;
+
+        padding: 0 2rem;
+
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    section#classes .classes .classesRegulares .classe,
+    section#classes .classes .classesAvancadas .classe {
+
+        padding: 0 0.5rem;
+
+    }
+
+}
